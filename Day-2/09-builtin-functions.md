@@ -29,7 +29,7 @@ variable "my_list" {
 }
 
 output "selected_element" {
-  value = element(var.my_list, 1) # Returns "banana"
+  value = element(var.my_list, 1) # Returns "apple"
 }
 ```
 
